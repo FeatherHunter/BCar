@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\OLED -I..\HARDWARE\usart3 -I..\HARDWARE\ADC -I..\HARDWARE\TIMER -I..\HARDWARE\MOTOR -I..\BALANCE\CONTROL -I..\HARDWARE\ENCODER -I..\HARDWARE\IIC -I..\BALANCE\CONTROL -I..\BALANCE\DMP -I..\BALANCE\filter -I..\BALANCE\show -I..\BALANCE\controls -I..\HARDWARE\MPU6050 
+-I D:\Keil_ARM\ARM\RV31\INC 
+-I D:\Keil_ARM\ARM\CMSIS\Include 
+-I D:\Keil_ARM\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -o "..\OBJ\iic.o" --omf_browse "..\OBJ\iic.crf" --depend "..\OBJ\iic.d" "..\HARDWARE\IIC\iic.c"
